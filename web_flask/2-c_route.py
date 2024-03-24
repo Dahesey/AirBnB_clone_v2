@@ -15,7 +15,7 @@ def hbnb():
     """ Display below text when route is accessed """
     return "Hello HBNB!"
 
-""" define second Route """
+""" Define second Route """
 @app.route('/hbnb', strict_slashes=False)
 def hbnb_route():
     """ Display below text when route is accessed """
@@ -23,7 +23,7 @@ def hbnb_route():
 
 """ Defining third route """
 @app.route('/c/<text>', strict_slashes=False)
-def c_is_fun(text):
+def c(text):
     """ Display C followed by text """
     return "C " + escape(text.replace('_', ' '))
 
