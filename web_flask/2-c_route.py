@@ -23,7 +23,7 @@ def hbnb_route():
 
 """ Defining third route """
 @app.route('/c/<text>', strict_slashes=False)
-def c(text):
+def c_is_fun(text):
     """ Display C followed by text """
     return "C " + escape(text.replace('_', ' '))
 
