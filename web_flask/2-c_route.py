@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route('/', strict_slashes=False)
 def hbnb():
     """ Display below text when route is accessed """
-    return "Hello HBNB"
+    return "Hello HBNB!"
 
 """ define second Route """
 @app.route('/hbnb', strict_slashes=False)
