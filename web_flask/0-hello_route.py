@@ -2,12 +2,12 @@
 """
 A script to start a simple flask web application
 """
+
 from flask import Flask
 
 app = Flask(__name__)
 
 
-"""define the route method"""
 @app.route('/', strict_slashes=False)
 def hbnb():
     """display Hello HBNB when route is accessed"""
