@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 A script to strt a simple flask web application
 """
@@ -24,7 +23,7 @@ def hbnb_route():
 
 @app.route('/c/<text>', strict_slashes=False)
 def c(text):
-    """ Display C followed by text """
+    """ Display C followed by text when route is accessed """
     return "C " + escape(text.replace('_', ' '))
 
 
