@@ -9,7 +9,6 @@ from flask import Flask
 app = Flask(__name__)
 
 
-""" Define route method """
 @app.route('/', strict_slashes=False)
 def hbnb():
     """ Display 'hello HBNB!' when accessinn the route """
